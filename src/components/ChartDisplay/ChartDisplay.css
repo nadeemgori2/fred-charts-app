@@ -1,0 +1,57 @@
+@import "../../styles/variables.css";
+
+.chart-display__no-chart {
+  text-align: center;
+  padding: var(--padding-large);
+  font-size: var(--font-size-large);
+  color: var(--text-color-light);
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius-large);
+  background-color: var(--background-light);
+  margin-top: var(--padding-large);
+}
+
+.chart-display__no-chart-title {
+  margin: 0;
+  font-weight: bold;
+  font-size: var(--font-size-xlarge);
+}
+
+.chart-display__no-chart-subtitle {
+  margin: 0;
+  font-size: var(--font-size-medium);
+  color: var(--placeholder-color);
+}
+
+.chart-display__loading {
+  text-align: center;
+  padding: var(--padding-large);
+  font-size: var(--font-size-large);
+  color: var(--primary-color);
+}
+
+.chart-display__error {
+  text-align: center;
+  padding: var(--padding-large);
+  font-size: var(--font-size-large);
+  color: var(--error-color);
+  background-color: var(--error-bg-color);
+  border: 1px solid var(--error-border-color);
+  border-radius: var(--border-radius-large);
+  margin-top: var(--padding-large);
+}
+
+.chart-display__error-title {
+  font-weight: bold;
+}
+
+.chart-display__error-subtitle {
+  margin: 0;
+}
+
+.chart-display__no-data {
+  text-align: center;
+  padding: var(--padding-large);
+  font-size: var(--font-size-large);
+  color: var(--placeholder-color);
+}

@@ -1,0 +1,59 @@
+@import "../../styles/variables.css";
+
+.chart-manager {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--padding-large);
+}
+
+.chart-manager__empty {
+  margin-top: 50px;
+  font-size: var(--font-size-xlarge);
+  color: var(--text-color-light);
+  text-align: center;
+}
+
+.chart-manager__chart {
+  margin: var(--padding-large) 0;
+  padding: var(--padding-medium);
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius-large);
+  background-color: var(--background-light);
+  box-shadow: 0 2px 5px var(--box-shadow-color);
+  width: 100%;
+  max-width: 800px;
+}
+
+.chart-manager__remove-button {
+  margin-top: var(--padding-medium);
+  background-color: var(--error-color);
+  color: var(--background-color);
+  padding: var(--padding-small) var(--padding-medium);
+  border: none;
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  transition: background-color var(--transition-ease);
+}
+
+.chart-manager__remove-button:hover {
+  background-color: var(--error-color-hover);
+}
+
+.chart-manager__add-button {
+  margin-bottom: var(--padding-large);
+  margin-top: var(--padding-large);
+  width: 25%;
+  min-width: 100px;
+  padding: var(--padding-medium);
+  background-color: var(--primary-color);
+  color: var(--background-color);
+  border: none;
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  transition: background-color var(--transition-ease);
+}
+
+.chart-manager__add-button:hover {
+  background-color: var(--primary-color-hover);
+}
