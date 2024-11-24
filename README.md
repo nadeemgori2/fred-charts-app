@@ -1,30 +1,25 @@
 # About Application
-
 This is a React-based application for managing and displaying dynamic charts using data from external APIs. 
 It allows users to configure, customize, and visualize data interactively.
 
 # Running the Application
-
 Install dependencies:
 ```js
 npm install
 ```
-
 Start the development server:
 ```js
 npm run dev
 ```
-http://localhost:5173
-```js
 Open your browser and navigate to:
+```js
+http://localhost:5173
 ```
 
 # Contact Me
-
 Nadeem Gori
 For any questions, feedback, or support, feel free to contact me:
 [nadeemgori410@gmail.com]
-
 
 # React + TypeScript + Vite
 
